@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dice Game</title>
+  </head>
+  <body>
+    <header id="heading"><h1>Roll the Dice Game</h1></header>
+    <section class="game-board">
+      <div class="header">
+        <h2 class="container">Let the games begin!</h2>
+      </div>
+      <div class="roll">
+        <button class="container" id="roll-btn">Roll the Dice</button>
+      </div>
+      <div class="reset">
+        <button class="container" id="reset-btn">Reset Game</button>
+      </div>
+      <div class="current-points">
+        <p>CURRENT POINTS</p>
+        <hr />
+        <div id="total">0</div>
+      </div>
+      <div class="dice-container">
+        <div class="dice-images"></div>
+      </div>
+      <div class="win-lose-display">
+        <h2 id="you-lose"></h2>
+        <h2 id="you-win"></h2>
+      </div>
+    </section>
+    <footer> 
+        <p>Get 20 points or more to succeed.</p>
+        <p>If you roll a 1 on the dice, it's game over.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
